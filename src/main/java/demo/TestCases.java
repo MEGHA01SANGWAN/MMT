@@ -158,10 +158,7 @@ public class TestCases {
              }
              
            }
-     //   WebElement classDropdown = driver.findElement(By.xpath("//label[@for=\"travelClass\"]"));
- //          Select classSelect = new Select(classDropdown);
- //          String desiredClass = "Vistadome AC)";
- //          classSelect.selectByVisibleText(desiredClass);
+     
          Thread.sleep(2000);
        //click on search
      WebElement searchbtn =    driver.findElement(By.xpath("//a[@data-cy=\"submit\"]"));
